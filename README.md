@@ -92,17 +92,16 @@ This report tracks monthly sentiment trends among employees based on email commu
 ### Positive Impact
 - **has_positive_subject**: Emails with positive words in the subject line had higher sentiment scores
 - **exclamation_count**: More exclamation points correlated with more positive sentiment
-- Certain **sender domains** showed consistently more positive sentiment
+- **sender domains** showed consistently more positive sentiment
 
 ### Negative Impact
 - **has_negative_subject**: Negative words in the subject predicted lower sentiment
-- **capital_words**: ALL CAPS words were associated with negative sentiment (possibly indicating anger)
+- **capital_words**: ALL CAPS words were associated with negative sentiment (possibly indicating negative emotion)
 
-## Business Implications
+## Insights From Analysis 
 
 ### Communication Strategies
-- Encourage positive language in subject lines to improve email sentiment
-- Avoid excessive capitalization which may come across as aggressive
+- Encourage positive and formal language in subject lines to improve email sentiment
 - Consider timing important communications for weekends or daytime hours
 
 ### Monitoring Tools
@@ -110,14 +109,13 @@ This report tracks monthly sentiment trends among employees based on email commu
 - Track sender-specific patterns to identify who may need communication training
 
 ## Limitations
-- The model explains less than half of sentiment variance (R² < 0.5)
+- The model explains less than half of the sentiment variance (R² < 0.5)
 - Potential areas for improvement:
-  - More sophisticated NLP features (word embeddings, sentiment dictionaries)
+  - More sophisticated NLP features (word embeddings, sentiment dictionaries...)
   - Additional contextual features
-  - Non-linear models
+  - Non-linear models (highly recommend using a classification model)
 - Dataset may contain biases based on the specific context of Enron emails
 
 ## Next Steps
-- Experiment with more advanced models (Random Forest, XGBoost)
+- Experiment with more advanced models
 - Incorporate topic modeling to identify content-specific sentiment patterns
-- Develop a real-time monitoring system using this model
