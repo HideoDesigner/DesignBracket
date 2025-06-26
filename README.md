@@ -1,5 +1,9 @@
 # Monthly Employee Sentiment Rankings (2010-2011)
-
+## How to Run  
+Install dependencies:  
+pip install pandas numpy textblob spacy matplotlib seaborn python-dateutil  
+python -m spacy download en_core_web_sm  
+python -m textblob.download_corpora   
 ## Analysis Overview
 This report tracks monthly sentiment trends among employees based on email communications, showing:
 - Top 3 employees with most negative sentiment scores each month
@@ -87,11 +91,19 @@ This report tracks monthly sentiment trends among employees based on email commu
 
 # Key Findings of Predictive Model
 
-![Feature Importance in Sentiment Prediction](https://github.com/user-attachments/assets/28d7f928-6f2f-49fe-b09b-e60268440961)
+## How to Run  
+Install dependencies:  
+pip install scikit-learn pandas numpy textblob spacy matplotlib seaborn  
+python -m spacy download en_core_web_sm  
+python -m textblob.download_corpora  
+
+
+
+
 
 
 ## Significant Features
-
+![Feature Importance in Sentiment Prediction](https://github.com/user-attachments/assets/28d7f928-6f2f-49fe-b09b-e60268440961)  
 ### Positive Impact
 - **has_positive_subject**: Emails with positive words in the subject line had higher sentiment scores
 - **exclamation_count**: More exclamation points correlated with more positive sentiment
