@@ -87,6 +87,9 @@ This report tracks monthly sentiment trends among employees based on email commu
 
 # Key Findings of Predictive Model
 
+![Feature Importance in Sentiment Prediction](https://github.com/user-attachments/assets/28d7f928-6f2f-49fe-b09b-e60268440961)
+
+
 ## Significant Features
 
 ### Positive Impact
