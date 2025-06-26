@@ -105,7 +105,7 @@ This report tracks monthly sentiment trends among employees based on email commu
 
 ### Communication Strategies
 - Encourage positive and formal language in subject lines to improve email sentiment
-- Consider timing important communications for weekends or daytime hours
+- Consider important communications for weekends or daytime hours
 
 ### Monitoring Tools
 - The model can flag potentially negative communications for review
@@ -114,7 +114,7 @@ This report tracks monthly sentiment trends among employees based on email commu
 ## Limitations
 - The model explains less than half of the sentiment variance (R² < 0.5)
 - Potential areas for improvement:
-  - More sophisticated NLP features (word embeddings, sentiment dictionaries...)
+  - More sophisticated NLP features
   - Additional contextual features
   - Non-linear models (highly recommend using a classification model)
 - Dataset may contain biases based on the specific context of Enron emails
